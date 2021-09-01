@@ -39,9 +39,6 @@ const Brands = () => {
             <Link href="https://www.adidas.co.id/" >
               <a className={styles['brands-btn']}>Adidas</a>
             </Link>
-            <Link href="ss" >
-              <a className={styles['brands-btn']}>Adidas</a>
-            </Link>
           </div>
         </div>
 
