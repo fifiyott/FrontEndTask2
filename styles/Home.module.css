@@ -113,6 +113,17 @@
   margin-left: 0.5rem;
 }
 
+.home-section{
+  display: flex;
+}
+.home-image{
+  flex: 1;
+}
+.home-text{
+  flex: 2;
+  margin: 20px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
