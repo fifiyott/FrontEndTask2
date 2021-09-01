@@ -115,13 +115,33 @@
 
 .home-section{
   display: flex;
+  
 }
 .home-image{
   flex: 1;
+  margin-top: 30px;
 }
 .home-text{
-  flex: 2;
+  flex: 1;
   margin: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: rgb(228, 228, 228);
+}
+.home-text h1{
+  color: #fff;
+  /* text-align: center; */
+}
+.home-btn{
+  border: 1px solid #eaeaea;
+  border-radius: 40px;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  align-self: center;
 }
 
 @media (max-width: 600px) {

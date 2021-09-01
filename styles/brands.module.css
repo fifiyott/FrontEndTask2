@@ -1,0 +1,9 @@
+.brands-link{
+    display: flex;
+    /* flex-direction: row; */
+}
+.brands-card{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}

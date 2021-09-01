@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,800,800i,900i&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
 html,
 body {
@@ -20,14 +20,36 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 0;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: black;
+}
+nav .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid floralwhite;
+  border-radius: 20px;
+  background-color: rgb(168, 168, 168); */
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  width: 165px;
+  height: 40px;
+}
+nav .logo-gambar{
+  border: 1px solid floralwhite;
+  background-color: floralwhite;
+  border-radius: 45px;
 }
 nav ul{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-nav ul li {
+nav ul li{
   list-style: none;
 }
 nav ul li a{
