@@ -8,8 +8,9 @@ color: #fff;
 font-family: "Nunito";
 }
 .content{
-  max-width: 960px;
+  /* max-width: 960px; */
   margin : 0 auto;
+  min-height: 100vh;
 }
 a {
   color: inherit;
@@ -57,6 +58,13 @@ nav ul li a{
   padding: 0 25px;
 }
 
+.navlink:hover,
+.navlink:focus,
+.navlink:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
 /* .home-section{
   display: flex;
 }
@@ -78,4 +86,5 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 } 

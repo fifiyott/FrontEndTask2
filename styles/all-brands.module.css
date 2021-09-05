@@ -1,0 +1,37 @@
+
+.halaman-brands{
+    min-height: 100vh;
+    padding-top: 30px;
+    /* margin: auto; */
+    /* padding: 0; */
+    
+
+}
+.halaman-text{
+    text-align: center;
+    padding: 80px 0;
+    background-image: url("../public/bg.jpg");
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(24, 24, 24);
+}
+.flex-content1, .flex-content2, .flex-content3{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 30px;
+}
+.img-kiri, .img-kanan{
+    flex: 1;
+}
+.text-kiri, .text-kanan{
+    flex: 1;
+    padding: 200px 0;
+}
+.text-kiri{
+    margin-right: 40px;
+}
+.text-kanan{
+    margin-left: 40px;
+}

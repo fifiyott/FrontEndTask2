@@ -17,36 +17,56 @@ const Brands = () => {
 
         <div className={styles['brands-link']}>
           <div className={styles['brands-card']}>
-            <Image src="/nike-logo.jpg" alt="Nike" width={500} height={500}/>
-            <Link href="https://www.nike.com/id/w/sale-3yaep" >
-              <a className={styles['brands-btn']}>Nike</a>
+            <Image src="/nike-logo.jpg" alt="Nike" width={214} height={200}/>
+            <Link href="/brands/nike" >
+              <a className={styles['brands-btn']} target="_blank">Nike</a>
             </Link>
           </div>
           <div className={styles['brands-card']}>
-            <Image src="/reebok-logo.png" alt="Reebok" width={500} height={500}/>
-            <Link href="https://www.reebok.id/sale.html" >
-              <a className={styles['brands-btn']}>Reebok</a>
+            <Image src="/reebok-logo.png" alt="Reebok" width={214} height={200}/>
+            <Link href="/brands/reebok" >
+              <a className={styles['brands-btn']} target="_blank">Reebok</a>
             </Link>
           </div>
           <div className={styles['brands-card']}>
-            <Image src="/puma-logo.png" alt="Puma" width={500} height={500}/>
-            <Link href="https://in.puma.com/" >
-              <a className={styles['brands-btn']}>Puma</a>
+            <Image src="/puma-logo.png" alt="Puma" width={214} height={200}/>
+            <Link href="/brands/puma" >
+              <a className={styles['brands-btn']} target="_blank">Puma</a>
             </Link>
           </div>
           <div className={styles['brands-card']}>
-            <Image src="/adidas-logo.png" alt="Adidas" width={500} height={500}/>
-            <Link href="https://www.adidas.co.id/" >
-              <a className={styles['brands-btn']}>Adidas</a>
+            <Image src="/adidas-logo.png" alt="Adidas" width={214} height={200}/>
+            <Link href="/brands/adidas" >
+              <a className={styles['brands-btn']} target="_blank">Adidas</a>
+            </Link>
+          </div>
+
+          <div className={styles['brands-card']}>
+            <Image src="/dummy.png" alt="brans" width={214} height={200}/>
+            <Link href="/" >
+              <a className={styles['brands-btn']} target="_blank">brands</a>
+            </Link>
+          </div>
+          <div className={styles['brands-card']}>
+            <Image src="/dummy.png" alt="brans" width={214} height={200}/>
+            <Link href="/" >
+              <a className={styles['brands-btn']} target="_blank">brands</a>
+            </Link>
+          </div>
+          <div className={styles['brands-card']}>
+            <Image src="/dummy.png" alt="brans" width={214} height={200}/>
+            <Link href="/" >
+              <a className={styles['brands-btn']} target="_blank">brands</a>
+            </Link>
+          </div>
+          <div className={styles['brands-card']}>
+            <Image src="/dummy.png" alt="brans" width={214} height={200}/>
+            <Link href="/" >
+              <a className={styles['brands-btn']} target="_blank">brands</a>
             </Link>
           </div>
         </div>
 
-        {/* <h2>Nike</h2>
-
-        <h2>Reebok</h2>
-        <h2>Puma</h2>
-        <h2>Adidas</h2> */}
         
       </div>
     );

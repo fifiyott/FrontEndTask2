@@ -90,12 +90,12 @@
   width: 45%;
 }
 
-.card:hover,
+/* .card:hover,
 .card:focus,
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
-}
+} */
 
 .card h2 {
   margin: 0 0 1rem 0;
@@ -115,7 +115,8 @@
 
 .home-section{
   display: flex;
-  
+  min-height: 80vh;
+  padding-top: 20px;
 }
 .home-image{
   flex: 1;
@@ -142,6 +143,12 @@
   width: 150px;
   text-align: center;
   align-self: center;
+}
+.home-btn:hover,
+.home-btn:focus,
+.home-btn:active {
+  color: #0070f3;
+  border-color: #0070f3;
 }
 
 @media (max-width: 600px) {
