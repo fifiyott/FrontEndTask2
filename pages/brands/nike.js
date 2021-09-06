@@ -1,7 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import Head from 'next/head'
-import styles from "../../styles/all-brands.module.css"
+// import styles from "../../styles/all-brands.module.css"
+import styles from "../../styles/all-brands.module.scss"
 
 const Nike = () => {
     return (
